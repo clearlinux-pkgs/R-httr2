@@ -5,7 +5,7 @@
 #
 Name     : R-httr2
 Version  : 0.2.3
-Release  : 5
+Release  : 6
 URL      : https://cran.r-project.org/src/contrib/httr2_0.2.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/httr2_0.2.3.tar.gz
 Summary  : Perform HTTP Requests and Process the Responses
