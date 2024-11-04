@@ -7,7 +7,7 @@
 #
 Name     : R-httr2
 Version  : 1.0.5
-Release  : 13
+Release  : 14
 URL      : https://cran.r-project.org/src/contrib/httr2_1.0.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/httr2_1.0.5.tar.gz
 Summary  : Perform HTTP Requests and Process the Responses
