@@ -6,10 +6,10 @@
 # autospec commit: 5424026
 #
 Name     : R-httr2
-Version  : 1.0.6
-Release  : 15
-URL      : https://ftp.osuosl.org/pub/cran/src/contrib/httr2_1.0.6.tar.gz
-Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/httr2_1.0.6.tar.gz
+Version  : 1.0.7
+Release  : 16
+URL      : https://ftp.osuosl.org/pub/cran/src/contrib/httr2_1.0.7.tar.gz
+Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/httr2_1.0.7.tar.gz
 Summary  : Perform HTTP Requests and Process the Responses
 Group    : Development/Tools
 License  : MIT
@@ -59,10 +59,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1731643534
+export SOURCE_DATE_EPOCH=1732725960
 
 %install
-export SOURCE_DATE_EPOCH=1731643534
+export SOURCE_DATE_EPOCH=1732725960
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -168,6 +168,7 @@ R CMD check --no-manual --no-examples --no-codoc . || :
 /usr/lib64/R/library/httr2/tests/testthat/_snaps/req-perform-stream.md
 /usr/lib64/R/library/httr2/tests/testthat/_snaps/req-perform.md
 /usr/lib64/R/library/httr2/tests/testthat/_snaps/req-policy.md
+/usr/lib64/R/library/httr2/tests/testthat/_snaps/req-promise.md
 /usr/lib64/R/library/httr2/tests/testthat/_snaps/req-retries.md
 /usr/lib64/R/library/httr2/tests/testthat/_snaps/req-template.md
 /usr/lib64/R/library/httr2/tests/testthat/_snaps/req-url.md
